@@ -14,7 +14,7 @@ button.addEventListener('click', () =>{
             </section>
             <i id="equal" class="fas fa-equals"></i>
             <section id="usd">
-                <p>USD ${Math.round(data[0].high * valor)},00</p>
+                <p>USD ${Math.round(valor / data[0].high)},00</p>
                 <i class="fas fa-hand-holding-usd"></i>
             </section>`
             })
